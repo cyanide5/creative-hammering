@@ -10,3 +10,7 @@ pytest-cov==2.6.1
 pytest-flake8==1.0.7
 requests==2.21.0
 Werkzeug==0.16.1
+
+#  TODO: add to readme file instead
+# must set up environment variables when running in pycharm
+# PYTHONUNBUFFERED=1;CH_CONFIG=C:\Users\{}test_config.py
