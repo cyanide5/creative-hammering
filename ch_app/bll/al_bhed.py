@@ -7,20 +7,21 @@ e2a = {
     "B": "P"
 }
 
-
-eng_phrase = input("type something: ")
+#
+# eng_phrase = input("type something: ")
 
 def translate(phrase):
-    output = ""
-    for letter in phrase:
-        trans_letter = e2a.get(letter.upper())
-        try:
-            output = output + trans_letter  # fails.. because it cannot concatenate a string with a Nonetype
-        except TypeError:
-            output = output + letter
-    return output
-
-print(translate(eng_phrase))
+    return
+#     output = ""
+#     for letter in phrase:
+#         trans_letter = e2a.get(letter.upper())
+#         try:
+#             output = output + trans_letter  # fails.. because it cannot concatenate a string with a Nonetype
+#         except TypeError:
+#             output = output + letter
+#     return output
+#
+# print(translate(eng_phrase))
 
 
 

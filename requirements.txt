@@ -9,4 +9,4 @@ jsonschema==2.6.0
 pytest-cov==2.6.1
 pytest-flake8==1.0.7
 requests==2.21.0
-werkzeug=0.16.1
+Werkzeug==0.16.1
