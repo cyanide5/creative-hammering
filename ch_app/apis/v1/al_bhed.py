@@ -22,7 +22,12 @@ class AlBhed(Resource):
     def get(self):
         args = parser.parse_args()
         logger.info("Initializing Translation")
+        if args.get("input_type") == "eng":
+            resp = al_bhed.translate_eng(args.get("input_string"))
+            return resp
+        else:
+            return "alb not yet supported"
 
-        return
+
 
 

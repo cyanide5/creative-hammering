@@ -1,30 +1,18 @@
+from ch_app.dll import albhed_cypher
 
-
-
-# ENG to ALB
-e2a = {
-    "A": "Y",
-    "B": "P"
-}
 
 #
 # eng_phrase = input("type something: ")
 
-def translate(phrase):
-    return
-#     output = ""
-#     for letter in phrase:
-#         trans_letter = e2a.get(letter.upper())
-#         try:
-#             output = output + trans_letter  # fails.. because it cannot concatenate a string with a Nonetype
-#         except TypeError:
-#             output = output + letter
-#     return output
-#
-# print(translate(eng_phrase))
-
-
-
+def translate_eng(phrase):
+    output = ""
+    for letter in phrase:
+        trans_letter = albhed_cypher.eng_alb.get(letter.upper())
+        try:
+            output = output + trans_letter
+        except TypeError:
+            output = output + letter
+    return output
 
 #
 # def translate_to_ab(engPhrase):
