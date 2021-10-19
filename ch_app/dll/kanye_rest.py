@@ -5,7 +5,7 @@ import json
 logger = logging.getLogger(__name__)
 
 
-def get_quote():
+def _get_quote():
     url = 'https://api.kanye.rest/'
     kr_resp = requests.get(url)
     content = kr_resp.content

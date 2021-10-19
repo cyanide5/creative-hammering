@@ -18,7 +18,7 @@ logger = logging.getLogger(__name__)
 URL_PREFIX = "/creativeHammer"
 apidoc.url_prefix = URL_PREFIX
 blueprint = Blueprint('api', __name__, url_prefix=URL_PREFIX)
-kanye_quote = kanye_rest.get_quote()
+kanye_quote = kanye_rest._get_quote()
 
 api = Api(
     blueprint,
