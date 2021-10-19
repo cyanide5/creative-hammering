@@ -3,6 +3,7 @@ import logging
 from flask import request
 from flask_restplus import Namespace, Resource, fields, reqparse
 from ch_app.bll import al_bhed
+from flask import abort
 
 api = Namespace("v1/al_bhed", description="Translate English to AlBhed")
 
@@ -14,8 +15,8 @@ logger = logging.getLogger(__name__)
 
 
 @api.route('/translate')
-@api.response(200, "you did it!")
-@api.response(400, "you fucked it up")
+@api.response(200, "You did it!")
+@api.response(400, "Unsupported request")
 class AlBhed(Resource):
 
     @api.expect(parser)
@@ -26,4 +27,4 @@ class AlBhed(Resource):
             resp = al_bhed.translate_eng(args.get("input_string"))
             return resp
         else:
-            return "alb not yet supported"
+            abort(400, "Not a supported entry at this time")
