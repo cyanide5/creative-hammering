@@ -1,6 +1,8 @@
 import requests
 import json
 import logging
+from flask import abort
+
 
 logger = logging.getLogger(__name__)
 
@@ -8,11 +10,15 @@ logger = logging.getLogger(__name__)
 def get_pokemon(pokemon):
     poke_url = 'https://pokeapi.co/api/v2/pokemon/'
     if pokemon:
-        logger.info(f"SEARCHING POKEMON DATABASE: {pokemon}")
-        poke_resp = requests.get(f'{poke_url}{pokemon}')
-        poke_cont = poke_resp.content
-        pokemon_data = json.loads(poke_cont)
-        return pokemon_data
+        try:
+            logger.info(f"SEARCHING POKEMON DATABASE: {pokemon}")
+            poke_resp = requests.get(f'{poke_url}{pokemon}')
+            poke_cont = poke_resp.content
+            pokemon_data = json.loads(poke_cont)
+            return pokemon_data
+        except Exception:
+            abort(400, f"{pokemon} is not a real pokmon. You should search a digimon database.")
+
 
 def get_all_pokemon():
     poke_url = 'https://pokeapi.co/api/v2/pokemon/'
