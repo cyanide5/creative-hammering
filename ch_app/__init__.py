@@ -7,6 +7,7 @@ from ch_app.dll import kanye_rest
 
 
 from ch_app.apis.v1.al_bhed import api as al_bhed_v1
+from ch_app.apis.v1.pokemon import api as pokemon_v1
 
 __version__ = '1.11.0'
 
@@ -30,3 +31,4 @@ api = Api(
 app.register_blueprint(blueprint)
 
 api.add_namespace(al_bhed_v1)
+api.add_namespace(pokemon_v1)
