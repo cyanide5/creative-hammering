@@ -3,7 +3,7 @@ import logging
 
 import requests
 from flask import abort
-from ch_app.dll import states_data
+
 
 logger = logging.getLogger(__name__)
 
