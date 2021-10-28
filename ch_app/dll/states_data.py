@@ -1,5 +1,5 @@
 
-Alabama = ['al-bcso',
+alabama = ['al-bcso',
       'al-ccso',
       'al-ccj',
       'al-chso',
@@ -26,9 +26,9 @@ Alabama = ['al-bcso',
       'al-tpd',
       'al-tcso']
 
-Alaska = ['ak-apd']
+alaska = ['ak-apd']
 
-Arizona = ['az-ccso',
+arizona = ['az-ccso',
       'az-mcso',
       'az-meso',
       'az-ncso',
@@ -38,7 +38,7 @@ Arizona = ['az-ccso',
       'az-ycso',
       'az-yuma']
 
-Arkansas = ['ar-acso',
+arkansas = ['ar-acso',
       'ar-bcso',
       'ar-bnso',
       'ar-beso',
@@ -109,7 +109,7 @@ Arkansas = ['ar-acso',
       'ar-wcso',
       'ar-ycj']
 
-California = ['ca-acso',
+california = ['ca-acso',
       'ca-fcso',
       'ca-kcso',
       'ca-king',
@@ -128,7 +128,7 @@ California = ['ca-acso',
       'ca-tcso',
       'ca-vcso']
 
-Colorado = ['co-adms',
+colorado = ['co-adms',
       'co-acg',
       'co-acso',
       'co-bcso',
@@ -156,11 +156,11 @@ Colorado = ['co-adms',
       'co-rcso',
       'co-ycsd']
 
-Connecticut = ['ct-cdc']
+connecticut = ['ct-cdc']
 
-Delaware = None
+delaware = None
 
-Florida = ['fl-alac',
+florida = ['fl-alac',
       'fl-brad',
       'fl-bcso',
       'fl-bso',
@@ -207,7 +207,7 @@ Florida = ['fl-alac',
       'fl-vcc',
       'fl-wcso']
 
-Georgia = ['ga-ccso',
+georgia = ['ga-ccso',
       'ga-cobb',
       'ga-colum',
       'ga-cwt',
@@ -225,9 +225,9 @@ Georgia = ['ga-ccso',
       'ga-whte',
       'ga-wcso']
 
-Hawaii = None
+hawaii = None
 
-Idaho = ['id-acso',
+idaho = ['id-acso',
       'id-amso',
       'id-bann',
       'id-bnso',
@@ -251,7 +251,7 @@ Idaho = ['id-acso',
       'id-vcso',
       'id-wcso']
 
-Illinois = ['il-ccsd',
+illinois = ['il-ccsd',
       'il-clso',
       'il-ccso',
       'il-dcso',
@@ -266,7 +266,7 @@ Illinois = ['il-ccsd',
       'il-will',
       'il-wcso']
 
-Indiana = ['in-acso',
+indiana = ['in-acso',
        'in-bcso',
        'in-brwn',
        'in-clso',
@@ -305,7 +305,7 @@ Indiana = ['in-acso',
        'in-vcso',
        'in-wcso']
 
-Iowa = ['ia-amso',
+iowa = ['ia-amso',
       'ia-apcj',
       'ia-acso',
       'ia-bhcso',
@@ -373,11 +373,11 @@ Iowa = ['ia-amso',
       'ia-wood',
       'ia-wrso']
 
-Kansas = ['ks-ccso',
+kansas = ['ks-ccso',
       'ks-pcso',
       'ks-scso']
 
-Kentucky = ['ky-acso',
+kentucky = ['ky-acso',
       'ky-acdc',
       'ky-bcdc',
       'ky-bndc',
@@ -453,7 +453,7 @@ Kentucky = ['ky-acso',
       'ky-wcdc',
       'ky-wddc']
 
-Louisiana = ['la-acso',
+louisiana = ['la-acso',
       'la-apso',
       'la-cadd',
       'la-lpcso',
@@ -462,16 +462,16 @@ Louisiana = ['la-acso',
       'la-sjpso',
       'la-smpso']
 
-Maine = None
+maine = None
 
-Maryland = ['md-bcso',
+maryland = ['md-bcso',
       'md-dcso',
       'md-mont',
       'md-pg']
 
-Massachusetts = None
+massachusetts = None
 
-Michigan = ['mi-acsd',
+michigan = ['mi-acsd',
       'mi-bcsd',
       'mi-ccsd',
       'mi-ecso',
@@ -489,13 +489,13 @@ Michigan = ['mi-acsd',
       'mi-oakl',
       'mi-wayn']
 
-Minnesota = ['mn-acso',
+minnesota = ['mn-acso',
       'mn-hcso',
       'mn-mcso',
       'mn-scj',
       'mn-wrcj']
 
-Mississippi = ['ms-acso',
+mississippi = ['ms-acso',
       'ms-bcsd',
       'ms-cnsd',
       'ms-ccsd',
@@ -540,7 +540,7 @@ Mississippi = ['ms-acso',
       'ms-yasd',
       'ms-ycso']
 
-Missouri = ['mo-acso',
+missouri = ['mo-acso',
       'mo-asso',
       'mo-bcso',
       'mo-brso',
@@ -614,11 +614,11 @@ Missouri = ['mo-acso',
       'mo-vcso',
       'mo-wrcj']
 
-Montana = ['mt-rcso']
+montana = ['mt-rcso']
 
-Nebraska = ['ne-dcdc']
+nebraska = ['ne-dcdc']
 
-Nevada = ['nv-clv',
+nevada = ['nv-clv',
       'nv-ccdc',
       'nv-chn',
       'nv-lcso',
@@ -628,9 +628,9 @@ Nevada = ['nv-clv',
       'nv-wcso',
       'nv-wpcso']
 
-New_Hampshire = None
+new_hampshire = None
 
-New_Jersey = ['nj-bcso',
+new_jersey = ['nj-bcso',
       'nj-ecdc',
       'nj-hcso',
       'nj-mcso',
@@ -638,7 +638,7 @@ New_Jersey = ['nj-bcso',
       'nj-ocea',
       'nj-pass']
 
-New_Mexico = ['nm-bcsd',
+new_mexico = ['nm-bcsd',
       'nm-ccsd',
       'nm-chsd',
       'nm-cbsd',
@@ -657,7 +657,7 @@ New_Mexico = ['nm-bcsd',
       'nm-ucdf',
       'nm-vmdc']
 
-New_York = ['ny-acso',
+new_york = ['ny-acso',
       'ny-bcj',
       'ny-ctso',
       'ny-cyso',
@@ -695,7 +695,7 @@ New_York = ['ny-acso',
       'ny-wacj',
       'ny-ycso']
 
-North_Carolina = ['nc-amso',
+north_carolina = ['nc-amso',
       'nc-also',
       'nc-asso',
       'nc-acso',
@@ -777,11 +777,11 @@ North_Carolina = ['nc-amso',
       'nc-ydso',
       'nc-ycso']
 
-North_Dakota = ['nd-bcso',
+north_dakota = ['nd-bcso',
       'nd-ccso',
       'nd-wcso']
 
-Ohio = ['oh-acso',
+ohio = ['oh-acso',
       'oh-bcso',
       'oh-btso',
       'oh-ccso',
@@ -811,14 +811,14 @@ Ohio = ['oh-acso',
       'oh-wyso',
       'oh-wood']
 
-Oklahoma = ['ok-ccso',
+oklahoma = ['ok-ccso',
       'ok-lcso',
       'ok-ocso',
       'ok-rcso',
       'ok-tcso',
       'ok-wcso']
 
-Oregon = ['or-clac',
+oregon = ['or-clac',
        'or-ccso',
        'or-dcso',
        'or-jcso',
@@ -829,14 +829,14 @@ Oregon = ['or-clac',
        'or-wcsc',
        'or-ycso']
 
-Pennsylvania = ['pa-bcso',
+pennsylvania = ['pa-bcso',
       'pa-cent',
       'pa-phil',
       'pa-wmlc']
 
-Rhode_Island = None
+rhode_island = None
 
-South_Carolina = ['sc-abso',
+south_carolina = ['sc-abso',
       'sc-acso',
       'sc-adso',
       'sc-bcso',
@@ -872,10 +872,10 @@ South_Carolina = ['sc-abso',
       'sc-wcj',
       'sc-ycdcjc']
 
-South_Dakota = ['sd-ccso',
+south_dakota = ['sd-ccso',
       'sd-mcso']
 
-Tennessee = ['tn-ccso',
+tennessee = ['tn-ccso',
       'tn-cart',
       'tn-c',
       'tn-cksd',
@@ -902,7 +902,7 @@ Tennessee = ['tn-ccso',
       'tn-wlso',
       'tn-wcso']
 
-Texas = ['tx-acso',
+texas = ['tx-acso',
       'tx-brso',
       'tx-bcso',
       'tx-clhn',
@@ -960,15 +960,15 @@ Texas = ['tx-acso',
       'tx-wise',
       'tx-wood']
 
-Utah = ['ut-dcso',
+utah = ['ut-dcso',
       'ut-slcs',
       'ut-scso',
       'ut-utah',
       'ut-wcso']
 
-Vermont = None
+vermont = None
 
-Virginia = ['va-acso',
+virginia = ['va-acso',
       'va-abso',
       'va-alsd',
       'va-acsd',
@@ -1016,7 +1016,7 @@ Virginia = ['va-acso',
       'va-wtrj',
       'va-wvrj']
 
-Washington = ['wa-cc',
+washington = ['wa-cc',
       'wa-ccso',
       'wa-kc',
       'wa-kcso',
@@ -1030,9 +1030,9 @@ Washington = ['wa-cc',
       'wa-tcso',
       'wa-wcso']
 
-West_Virginia = ['wv-rj']
+west_virginia = ['wv-rj']
 
-Wisconsin = ['wi-barr',
+wisconsin = ['wi-barr',
       'wi-bcso',
       'wi-dcso',
       'wi-jcsd',
@@ -1044,5 +1044,5 @@ Wisconsin = ['wi-barr',
       'wi-rcs',
       'wi-wcsd']
 
-Wyoming = ['wy-scso',
+wyoming = ['wy-scso',
       'wy-tcso']
