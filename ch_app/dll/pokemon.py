@@ -5,7 +5,7 @@ from flask import abort
 
 logger = logging.getLogger(__name__)
 
-# ?limit=1118&offset=0
+
 def _get_pokemon(pokemon):
     poke_url = 'https://pokeapi.co/api/v2/pokemon'
     if pokemon:
